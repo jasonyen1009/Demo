@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		966D0A4826971B7F00F68CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966D0A4626971B7F00F68CD5 /* LaunchScreen.storyboard */; };
 		966D0A5326971B8000F68CD5 /* DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D0A5226971B8000F68CD5 /* DemoTests.swift */; };
 		966D0A5E26971B8000F68CD5 /* DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D0A5D26971B8000F68CD5 /* DemoUITests.swift */; };
+		96C030F62698A91E009B466F /* crayon_1-1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 96C030F52698A91E009B466F /* crayon_1-1.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		966D0A5926971B8000F68CD5 /* DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		966D0A5D26971B8000F68CD5 /* DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoUITests.swift; sourceTree = "<group>"; };
 		966D0A5F26971B8000F68CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96C030F52698A91E009B466F /* crayon_1-1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "crayon_1-1.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		966D0A3A26971B7D00F68CD5 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				96C030F52698A91E009B466F /* crayon_1-1.ttf */,
 				966D0A3B26971B7D00F68CD5 /* AppDelegate.swift */,
 				966D0A3D26971B7D00F68CD5 /* SceneDelegate.swift */,
 				966D0A3F26971B7D00F68CD5 /* ViewController.swift */,
@@ -207,7 +210,7 @@
 				};
 			};
 			buildConfigurationList = 966D0A3326971B7D00F68CD5 /* Build configuration list for PBXProject "Demo" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96C030F62698A91E009B466F /* crayon_1-1.ttf in Resources */,
 				966D0A4826971B7F00F68CD5 /* LaunchScreen.storyboard in Resources */,
 				966D0A4526971B7F00F68CD5 /* Assets.xcassets in Resources */,
 				966D0A4326971B7D00F68CD5 /* Main.storyboard in Resources */,
